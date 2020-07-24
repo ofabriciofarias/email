@@ -46,20 +46,20 @@ $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
 $mail->SMTPAuth = true;
 
 //Username to use for SMTP authentication - use full email address for gmail
-$mail->Username = 'fabriciosouzafarias@gmail.com';
+$mail->Username = '11111@gmail.com';
 
 //Password to use for SMTP authentication
-$mail->Password = 'oVicentesabeaminhasenha100';
+$mail->Password = '1111111';
 
 //Set who the message is to be sent from
-$mail->setFrom('fabriciosouzafarias@gmail.com', 'CREATIVE LABEX');
+$mail->setFrom('11111@gmail.com', 'CREATIVE LABEX');
 
 //Set an alternative reply-to address
 //Comentado
 //$mail->addReplyTo('replyto@example.com', 'First Last');
 
 //Set who the message is to be sent to
-$mail->addAddress('creativefarias@gmail.com', 'Fabricio Farias');
+$mail->addAddress('111122222@gmail.com', 'Fabricio Farias');
 
 //Set the subject line
 $mail->Subject = 'Teste de Envio de Email';
